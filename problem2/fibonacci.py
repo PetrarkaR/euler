@@ -1,3 +1,6 @@
+import time
+
+start_time = time.time()
 fibonacci = [1,2]
 fibonacciNew= []
 sum=0
@@ -16,3 +19,6 @@ for i in range (length):
     if(fibonacci[i]%2==0):
         sum=sum+fibonacci[i]
 print(sum);
+end_time = time.time()
+
+print("Time taken to execute the code:", end_time - start_time, "seconds")
