@@ -3,7 +3,7 @@ from math import sqrt
 divisors_limit = 500
 triangle_sum = 0
 
-for i in range(1, 100000):  # Incrementally calculate triangle numbers
+for i in range(1, 1000000):  # Incrementally calculate triangle numbers
     triangle_sum += i
     divisor_count = 0  # Reset divisor count for each triangle number
 
